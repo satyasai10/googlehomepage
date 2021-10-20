@@ -1,0 +1,113 @@
+body{
+  margin: 0;
+}
+#navbar{
+  display: flex;
+  justify-content: flex-end;
+}
+#navbar a {
+  margin-top: 15px;
+  margin-right: 20px;
+}
+#navbar a.photo{
+  width:20px;
+  height:20px;
+  background: #7027A0;
+  border-radius: 50%;
+  cursor:pointer;
+}
+.gmail{
+  color:black;
+  cursor: pointer;
+}
+
+
+.image{
+  color:black;
+  cursor:pointer;
+}
+#googleimage{
+  text-align: center;
+  padding-top: 100px;
+}
+#image{
+  height:180px;
+  width:280px;
+}
+
+#searchbarcontainer
+{
+  margin-top: 15px;
+  text-align: center;
+  position: relative;
+}
+#search,#voice,#pen
+{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#search
+{
+  left: 350px;
+}
+#voice
+{
+  right: 350px;
+
+}
+#searchbar{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  outline: 0;
+  width: 600px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  border: 1px solid #c4c4c4;
+}
+#searchbar:hover{
+  box-shadow: 0 0 10px 2px black;
+}
+input[type="text"]::placeholder {
+
+                /* Firefox, Chrome, Opera */
+                padding-left: 35px;
+            }
+
+.middle
+{
+  text-align: center;
+  padding-top: 10px;
+}
+#footer{
+  margin-top: 120px;
+  text-align: right;
+  position: relative;
+  color: blue;
+
+}
+
+#bar
+{
+  border-radius: 20px;
+  border: 1px solid #c4c4c4;
+  cursor: pointer;
+}
+#pen
+{
+  left:1100px;
+}
+#bar::placeholder {
+
+                /* Firefox, Chrome, Opera */
+                color:#113CFC;
+                cursor: pointer;
+            }
+.position:hover
+{
+  color:#1DB9C3;
+}
